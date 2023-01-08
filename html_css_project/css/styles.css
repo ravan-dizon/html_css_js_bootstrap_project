@@ -1,0 +1,767 @@
+
+*{
+	margin: 0;
+	padding: 0;
+
+}
+a{
+	text-decoration: none;
+}
+.page-wrapper{
+	min-height: 100%;
+
+}
+.navbar{
+	width: 100%;
+	height: 15vh;
+	display: flex;
+	align-items: center;
+	margin: auto;
+	position: relative;
+	background: #02bdc4;
+}
+.logo{
+	flex-basis: 50%;
+}
+.logo h1 a{
+	font-size: 30px;
+	color: #ff9800;
+	font-family: Courier New;
+}
+.logo h1 span{
+	font-size: 30px;
+	color: #fff;
+	margin-left: 80px;	
+	
+}
+.menu{
+	flex-basis: 50%;
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+.menu ul li {
+	list-style: none;
+	display: inline-block;
+	margin: 10px -5px;
+	font-size: 18px;
+	cursor: pointer;
+	padding: 5px;
+	font-family: Courier New;
+}
+.menu ul li:hover{
+	transform: scale(1.1);
+	color: #f1f1f1;
+}
+
+.menu a{
+	color: #000;
+}
+.menu span a{
+	font-size: 24px;
+	color: #fff;
+}
+
+.menu-icon{
+	position: absolute;
+	right: 30px;
+}
+.menu-icon img{
+	margin-left: 10px;
+	width: 40px;
+	height: 40px;
+}
+.menu-icon img:hover{
+	transform: scale(1.3);
+	color: #f1f1f1;
+}
+#mycontent{
+	width: 100%;
+	height: 70vh;
+	background-image: url(../img/paris1.jpeg); 
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	object-fit: cover;
+	background-size: cover;
+	
+}
+#mycontent h1{
+	color: #fff;
+	font-size: 36px;
+	font-weight: 600;
+	text-align: center;
+	font-family: Courier new;
+}
+#mm{
+	background-color: #0009;
+	height: 70vh;
+	 }
+.left-col1{
+	flex-basis: 100%;
+	height: 100vh;
+	position: relative;
+	font-family: Courier new;
+}
+.banner-text1{
+	color: #fff;
+	width: 450px;
+	position: absolute;
+	left: 300px;
+	top: 0;
+}
+.banner-text1 h1{
+	text-transform: uppercase;
+	margin-top: 100px;
+	letter-spacing: 0.5;
+}
+
+.banner-text1 p{
+	font-size: 22px;
+	margin-top: 20px;
+	text-align: justify;
+
+}
+.banner-text1 h2{
+	color: #fff;
+	text-transform: uppercase;
+	margin: 20px;
+}
+.border{
+	border: #fff solid 3px;
+	margin: 10px;
+	padding: 7px;
+	float: left;
+}
+.banner-text1 h2:hover{
+	transform: scale(1.1);
+	color: #f1f1f1;
+}
+.banner{
+	display: flex;
+	background-image: url(../img/wall.jpeg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	object-fit: cover;
+	background-size: cover;
+}
+.left-col{
+	flex-basis: 50%;
+	height: 85vh;
+	position: relative;
+}
+.banner-text{
+	width: 400px;
+	position: absolute;
+	left: 180px;
+	top: 0;
+}
+.banner-text h6{
+	color: #999;
+	font-weight: 550;
+	font-size: 14px;
+	margin-top: 20px;
+	position: relative;
+	font-family: Courier new;
+}
+.banner-text h6::after{
+	content: "";
+	height: 2px;
+	width: 70px;
+	background: #000;
+	position: absolute;
+	left: 100px;
+	top: 10px;
+}
+.banner-text h1{
+	font-size: 50px;
+	font-weight: 600;
+	margin: 30px 0;
+	font-family: Courier new;
+}
+.banner-text img{
+	width: 400px;
+	height: 200px;
+}
+.banner-text img:hover{
+	transform: translateY(-2px);
+	box-shadow: .5rem .5rem 2rem rgba(0,0,0,.2);
+}
+.banner-text p{
+	font-size: 20px;
+	font-weight: 550;
+	font-family: Courier new;
+	margin-top: 20px;
+	text-align: justify;
+}
+.banner-text h4{
+	margin-top: 30px;
+	position: relative;
+	font-size: 20px;
+	font-weight: 550;
+	font-family: Courier new;
+}
+.banner-text h4 a{
+	color: #000;
+
+}
+.banner-text h4 a::after{
+	content: '\276F';
+	font-size:30px;
+	position: absolute;
+	top: 30px;
+	left: 30px;
+	transform: rotate(90deg);
+}
+
+.vertical-menu{
+	border-bottom: 2px solid #000;
+	position: absolute;
+	top: 290px;
+	left: -110px;
+	transform: rotate(-90deg);
+}
+.vertical-menu ul li{
+	color: #000;
+	font-size: 24px;
+	display: inline-block;
+	margin-right: 18px;
+	letter-spacing: 1px;
+	font-weight: 550;
+	font-family: Courier new;
+}
+.vertical-menu span{
+	font-size: 30px;
+	color: #02bdc4;
+}
+.right-col{
+	flex-basis: 50%;
+	position: relative;
+	padding-top: 2%;
+}
+.right-col h1{
+	color: #000;
+	font-size: 32px;
+	font-weight: 550;
+	margin-left: 200px;
+	text-align: center;
+	font-family: Courier new;
+	margin-left: 25%;
+	margin-right: 10%;
+	margin-top: 5%;
+
+}
+.right-col img{
+	width: 400px;
+	height: 200px;
+	margin-left: 25%;
+	margin-top: 5%;
+	cursor: pointer;
+
+}
+.right-col img:hover{
+	transform: translateY(-2px);
+	box-shadow: .5rem .5rem 2rem rgba(0,0,0,.2)
+}
+.right-col img:active{
+	transform: translateY(0);
+	box-shadow: none;
+}
+.line-1{
+	width: 2px;
+	height: 100px;
+	background: #000;
+	position: absolute;
+	right: 530px;
+	bottom: 5px;
+}
+.line-1::after{
+	content: '03/17';
+	position: absolute;
+	color: #000;
+	top: -30px;
+	left: -17px;
+	font-size: 11px;
+	letter-spacing: 1px;
+	transform: rotate(-90deg);
+}
+
+.footer{
+	width: 100%;
+	background: #303036;
+	display: block;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	font-family: Courier new;
+	
+}
+.inner-footer{
+	width: 95%;
+	margin: auto;
+	padding: 30px 10px;
+	display: flex;
+	box-sizing: border-box;
+	justify-content: center;
+}
+.footer-items{
+	width: 70%;
+	padding: 10px 20px;
+	box-sizing: border-box;
+}
+.footer-items h1{
+	padding: 10px 0;
+	font-size: 30px;
+	
+	color: #ff9800;
+	text-transform: uppercase;
+	text-align: center;
+
+}
+.footer-items h1 span{
+	color: #02bdc4;
+	font-size: 30px;
+
+}
+.footer-items p{
+	color: grey;
+	font-size: 18px;
+	text-align: center;
+	line-height: 20px;
+	
+}
+.footer-items h2{
+	margin: 10px 80px;
+	color: grey;
+	font-size: 18px;
+	font-weight: lighter;
+	text-transform: uppercase;
+}
+.border1{
+	height: 2px;
+	width: 40px;
+	margin: 10px 80px;
+	background: #ff9800;
+
+}
+.footer-items ul{
+	list-style: none;
+	color: #fff;
+	font-size: 18px;
+	letter-spacing: 0.5px;
+
+}
+.footer-items ul a{
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	transition: 0.3s;
+}
+.footer-items ul a:hover{
+	color: #ff9800;
+}
+.footer-items	 ul  li{
+	margin: 10px 80px;
+	height: 25px;
+}
+.footer .footer-bottom{
+	background: #343a40;
+	color: #686868;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	justify-content: center;
+	position: relative;
+	left: 0;
+	padding-top: 20px;
+}
+/*-----------------------------DESTINATION--------------------*/
+.destination{
+	width: 100%;
+	height: 85vh;
+	background-image: url(../img/Raja-Ampat-GettyImages-497311417.webp);
+	background-attachment: fixed;
+}
+#des{
+	background-color: #0009;
+	height: 85vh;
+}
+.left-col2{
+	flex-basis: 100%;
+	height: 100vh;
+	position: relative;
+	font-family: Courier new;
+	text-align: center;	
+
+}
+.banner-text2{
+	color: #fff;
+	width: 450px;
+	position: absolute;
+	left: 400px;
+	
+}
+.banner-text2 h1{
+	text-transform: uppercase;
+	margin-top: 100px;
+	letter-spacing: 0.5;
+}
+
+.banner-text2 p{
+	font-size: 22px;
+	margin-top: 20px;
+	text-align: justify;
+
+}
+.text{
+	height: 30vh;
+	margin: 20px;
+	text-align: center;
+
+}
+.container{
+	max-width: 2200px;
+	margin: auto;
+	overflow: auto;
+	background-image: url(../img/wall.jpeg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	object-fit: cover;
+	background-size: cover;
+
+}
+.gallery{
+	margin:50px 50px;
+	float: left;
+	width: 340px;
+
+}
+.gallery img{
+	width: 100%;
+	height: 300px;
+	cursor: pointer;
+}
+.gallery img:hover{
+	transform: translateY(-2px);
+	box-shadow: .5rem .5rem 2rem rgba(0,0,0,.2)
+}
+.des{
+	font-family: Courier new;
+	font-weight: 500;
+	font-size: 20px;
+	padding: 20px;
+	text-align: center;
+}
+.des .btn{
+	padding: 10px 25px;
+	background-color:  #02bdc4;
+	margin: 10px 0;
+	text-transform: uppercase;
+	color: #eee;font-size: 14px;
+}
+.des .btn:hover{
+	transform: translateY(-2px);
+	box-shadow: 5px 5px 20px rgba(0,0,0,.2)
+}
+.des .btn1{
+	padding: 10px 25px;
+	background-color: #445ae3;
+	border-radius: 20px;
+	margin: 20px 0;
+	text-transform: uppercase;
+	color: #eee;
+	font-size: 14px
+}
+.des .btn1:hover{
+	transform: translateY(-2px);
+	box-shadow: 5px 5px 20px rgba(0,0,0,.2)
+}
+.des li{
+	display: inline-block;
+}
+.des li img{
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+	margin-top: 10px;
+}
+.partition{
+	width: 100%;
+	height: 10vh;
+	background-color: #0009;
+}
+.partition .text{
+	font-size: 20px;
+	color: #fff;
+	text-align: left;
+	padding: 10px 10px;
+}
+.small-wall{
+	width: 100%;
+	height: 10vh;
+	display: flex;
+	background-image: url(../img/wall.jpeg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	object-fit: cover;
+	background-size: cover;
+
+
+}
+/*----------------------------------ASIA---------------------*/
+.asia{
+	width: 100%;
+	height: 80vh;
+	background-image: url(../img/palawan-rca-honeymoons-cr-getty.jpg);
+	background-attachment: fixed;
+}
+#fuji{
+	background-color: #0009;
+	height: 80vh;
+}
+.banner3{
+	display: flex;
+	background-image: url(../img/wall.jpeg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	object-fit: cover;
+	background-size: cover;
+}
+.left-col3{
+	flex-basis: 60%;
+	height: 85vh;
+	position: relative;
+}
+.banner-text3{
+	width: 400px;
+	position: absolute;
+	left: 180px;
+	top: 0;
+}
+.banner-text3 h6{
+	color: #999;
+	font-weight: 550;
+	font-size: 14px;
+	margin-top: 20px;
+	position: relative;
+	font-family: Courier new;
+}
+.banner-text3 h6::after{
+	content: "";
+	height: 2px;
+	width: 70px;
+	background: #000;
+	position: absolute;
+	left: 100px;
+	top: 10px;
+}
+.banner-text3 h1{
+	font-size: 30px;
+	font-weight: 600;
+	margin: 20px 0;
+	font-family: Courier new;
+	color: #000;
+}
+.banner-text3 img{
+	width: 400px;
+	height: 200px;
+	cursor: pointer;
+}
+.banner-text3 img:hover{
+	transform: translateY(-2px);
+	box-shadow: .5rem .5rem 2rem rgba(0,0,0,.2);
+}
+.banner-text3 p{
+	font-size: 20px;
+	font-weight: 550;
+	font-family: Courier new;
+	color: #000;
+	margin-top: 20px;
+	text-align: justify;
+}
+.banner-text3 h4{
+	margin-top: 30px;
+	position: relative;
+	font-size: 20px;
+	font-weight: 550;
+	font-family: Courier new;
+}
+.banner-text3 h4 a{
+	color: #000;
+
+}
+
+.right-col3{
+	flex-basis: 40%;
+	position: relative;
+	padding-top: 2%;
+}
+.right-col3 h1{
+	color: #000;
+	font-size: 32px;
+	font-weight: 550;
+	margin-left: 200px;
+	text-align: center;
+	font-family: Courier new;
+	margin-left: 40%;
+	margin-right: 10%;
+	margin-top: 5%;
+
+}
+.right-col3 img{
+	width: 400px;
+	height: 200px;
+	margin-left: 5%;
+	margin-top: 8%;
+	cursor: pointer;
+
+}
+.right-col3 img:hover{
+	transform: translateY(-2px);
+	box-shadow: .5rem .5rem 2rem rgba(0,0,0,.2)
+}
+.right-col3 img:active{
+	transform: translateY(0);
+	box-shadow: none;
+}
+/*---------------------------------EUROPE----------------------*/
+.europe{
+	width: 100%;
+	height: 80vh;
+	background-image: url(../img/dri.jpeg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	object-fit: cover;
+	background-size: cover;
+	
+}
+#rome{
+	background-color: #0009;
+	height: 80vh;
+}
+.usa{
+	width: 100%;
+	height: 80vh;
+	background-image: url(../img/USA.png);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	object-fit: cover;
+	background-size: cover;
+	
+}
+#us{
+	background-color: #0009;
+	height: 80vh;
+
+}
+/*----------------------------------------contact--------------------------*/
+.background{
+	width: 100%;
+	height: 85vh;
+	background-image: url(../img/plane.jpg);
+	text-align: center;
+
+}
+.bac{
+	width: 100%;
+	background-color: #0009;
+	height: 85vh;
+
+}
+.title{
+	color: #fff;
+	font-family: Courier new;
+
+}
+.title h1{
+	padding: 45px;
+	font-size: 32px;
+	line-height: 10px;
+
+}
+.title h2{
+	font-size: 16px;
+}
+form{
+	margin-top: 60px;
+}
+.form-control{
+	width: 600px;
+	background: transparent;
+	border:none;
+	outline: none;
+	border-bottom: 1px solid gray;
+	color: #fff;
+	font-size: 18px;
+	margin-bottom: 16px;
+}
+input{
+	height: 45px;
+}
+form .submit{
+	background-color: #ff9800;
+	border-color: transparent;
+	color: #fff;
+	font-size: 20px;
+	letter-spacing: 2px;
+	height: 50px;
+	margin-top: 20px;
+	transition: 0.4s ease;
+}
+form .submit:hover{
+	background-color: #f44336;
+	cursor: pointer;
+}
+/*--------------------------------aboutus-----------------------------------------------*/
+#aboutus{
+	width: 100%;
+	height: 60vh;
+	background-image: url(../img/singapore2.webp);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	object-fit: cover;
+	background-size: cover;
+}
+.about{
+	background-color: #0009;
+	height: 60vh;
+
+
+}
+.left-col4{
+	flex-basis: 100%;
+	height: 100vh;
+	position: relative;
+	font-family: Courier new;
+	text-align: center;	
+
+
+}
+.banner-text4{
+	color: #fff;
+	width: 450px;
+	position: absolute;
+	left: 400px;
+
+	
+}
+.banner-text4 h1{
+	text-transform: uppercase;
+	margin-top: 40px;
+	letter-spacing: 0.5;
+	color: #fff;
+}
+
+.banner-text4 p{
+	font-size: 22px;
+	margin-top: 20px;
+	text-align: justify;
+	color: #fff;
+}
